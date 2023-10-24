@@ -1,6 +1,7 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 50;
+    color: white;
 }
 
 body {
@@ -12,11 +13,9 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 nav {
-    align-items: left;
     text-align: left;
     display: flex;
     justify-content: space-between;
@@ -28,7 +27,6 @@ button {
     background-size: cover;
     border: none;
     border-radius: 5px;
-
 }
 
 .logo-center-text {
