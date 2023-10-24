@@ -5,8 +5,8 @@
 }
 
 body {
+    background: radial-gradient(circle at center, #1a1a4f, #000033);
     background-color: #121726;
-    background-image: url('images/background.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
