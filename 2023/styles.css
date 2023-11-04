@@ -30,7 +30,7 @@ section {
 }
 
 button {
-    background-image: url('images/button_texture.png');
+    background: linear-gradient(to right, #3862E3, #7856E5);
     background-size: cover;
     border: none;
     border-radius: 5px;
@@ -97,6 +97,7 @@ h1 {
 
 .join-us-button {
     font-size: 125%;
+    justify-content: center;
 }
 
 .margin-10px {
