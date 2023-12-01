@@ -19,6 +19,11 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-size: 200%;
+    font-weight: 700;
+}
+
 .header-nav {
     display: flex;
     text-align: left;
@@ -122,3 +127,26 @@ h1 {
     align-items: center;
     margin-left: 10px;
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.our-service-text-class {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.six-boxes-div {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin-top: 35px;
+    width: 80%;
+    flex-direction: column;
+}
+
+/* .div-in-six-boxes-div {
+
+} */
