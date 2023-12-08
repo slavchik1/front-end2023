@@ -136,17 +136,53 @@ h1 {
 .our-service-text-class {
     margin-top: 100px;
     margin-bottom: 50px;
+    font-size: 300%;
 }
 
 .six-boxes-div {
     display: flex;
-    align-self: center;
     align-items: center;
     margin-top: 35px;
-    width: 80%;
+    width: 100%;
     flex-direction: column;
 }
 
-/* .div-in-six-boxes-div {
+.text-under-text-our-service {
+    font-size: 120%;
+}
 
-} */
+.div-in-six-boxes-div {
+    display: flex;
+}
+
+.other-div-in-six-boxes-div {
+    width: 80%;
+}
+
+.div-in-other-div-in-six-boxes-div-in-six-boxes-div {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.05);
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-under-icons {
+    font-size: 145%;
+}
+
+.text-under-text-under-icons {
+    font-size: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.learn-more-text {
+    margin-top: 20px;
+}
