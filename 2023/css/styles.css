@@ -31,6 +31,10 @@ h2 {
     align-items: center;
 }
 
+.logo {
+    margin-right: 7.5px;
+}
+
 .main-section-1 {
     display: flex;
     align-items: center;
@@ -70,7 +74,6 @@ h1 {
     margin: 0;
     margin-left: auto;
     align-items: center;
-    
     list-style: none;
 }
 
@@ -185,4 +188,32 @@ h1 {
 
 .learn-more-text {
     margin-top: 20px;
+}
+
+.left-div-in-section-3-top {
+    display: flex;
+    justify-self: left;
+    width: 39.95%;
+}
+
+.right-div-in-section-3-top {
+    display: flex;
+    justify-self: right;
+    width: 59.95%;
+    padding-left: 50px;
+}
+
+.h3-in-section-3 {
+    font-size: 400%;
+}
+
+.read-more-button {
+    font-size: 15px;
+    justify-content: center;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
