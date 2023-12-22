@@ -24,6 +24,18 @@ h2 {
     font-weight: 700;
 }
 
+header {
+    padding: 24px 0px;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+/*    outline: 2px solid red; /*Не обов'язково*/
+}
+
 .header-nav {
     display: flex;
     text-align: left;
@@ -35,7 +47,7 @@ h2 {
     margin-right: 7.5px;
 }
 
-.main-section-1 {
+.section-1 {
     display: flex;
     align-items: center;
     text-align: left;
@@ -109,7 +121,7 @@ h1 {
     font-size: 130%;
 }
 
-.section-1-right-div-div-for-buttons {
+.section-1-buttons {
     display: flex;
 }
 
@@ -136,13 +148,13 @@ h1 {
     justify-content: center;
 }
 
-.our-service-text-class {
+.our-service-text {
     margin-top: 100px;
     margin-bottom: 50px;
     font-size: 300%;
 }
 
-.six-boxes-div {
+.six-boxes-div-lvl1 {
     display: flex;
     align-items: center;
     margin-top: 35px;
@@ -150,11 +162,11 @@ h1 {
     flex-direction: column;
 }
 
-.text-under-text-our-service {
+.under-text-our-service {
     font-size: 120%;
 }
 
-.div-in-six-boxes-div {
+.six-boxes-div-lvl2 {
     display: flex;
 }
 
@@ -162,7 +174,7 @@ h1 {
     width: 80%;
 }
 
-.div-in-other-div-in-six-boxes-div-in-six-boxes-div {
+.six-boxes-div-lvl3 {
     width: 300px;
     background-color: rgba(255, 255, 255, 0.05);
     margin-bottom: 15px;
@@ -176,11 +188,11 @@ h1 {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.text-under-icons {
+.text-under-icons-lvl1 {
     font-size: 145%;
 }
 
-.text-under-text-under-icons {
+.text-under-icons-lvl2 {
     font-size: 90%;
     margin-top: 5px;
     margin-bottom: 5px;
