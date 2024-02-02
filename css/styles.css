@@ -174,7 +174,7 @@ h1 {
     width: 80%;
 }
 
-.six-boxes-div-lvl3 {
+.div-box {
     width: 300px;
     background-color: rgba(255, 255, 255, 0.05);
     margin-bottom: 15px;
@@ -202,16 +202,16 @@ h1 {
     margin-top: 20px;
 }
 
-.left-div-in-section-3-top {
+.first-div-in-section-3 {
     display: flex;
     justify-self: left;
-    width: 39.95%;
+    width: 507px;
 }
 
-.right-div-in-section-3-top {
+.second-div-in-section-3 {
     display: flex;
     justify-self: right;
-    width: 59.95%;
+    width: 50.95%;
     padding-left: 50px;
 }
 
@@ -228,4 +228,40 @@ h1 {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 10px;
+}
+
+.section-4-div-lvl1 {
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.section-4-div-lvl2 {
+    width: 23%;
+}
+
+.section-4-div-lvl3 {
+    justify-content: space-between;
+}
+
+.section-4-p-lvl1 {
+    margin: 2px;
+}
+
+.section-4-p-lvl2 {
+    font-size: 150%;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.section-4-p-lvl3 {
+    font-size: 90%;
+    margin-top: 5px;
+}
+
+.section-4-h1 {
+    margin-top: 50px;
+}
+
+.section-4-img {
+    margin-bottom: 10px;
 }
