@@ -33,7 +33,6 @@ header {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-/*    outline: 2px solid red; /*Не обов'язково*/
 }
 
 .header-nav {
@@ -241,6 +240,7 @@ h1 {
 
 .section-4-div-lvl3 {
     justify-content: space-between;
+    margin-top: -5px;
 }
 
 .section-4-p-lvl1 {
@@ -263,5 +263,31 @@ h1 {
 }
 
 .section-4-img {
+    margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.section-4-icon {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.section-5-main-div {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.section-3-h2 {
+    margin-bottom: 0px;
+}
+
+.subscription-form {
+    background: linear-gradient(to right, rgba(254, 254, 255, 0.03), rgba(255, 255, 255, 0.05));
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.subscription-form-input {
+    width: 80%;
 }
