@@ -283,11 +283,45 @@ h1 {
 
 .subscription-form {
     background: linear-gradient(to right, rgba(254, 254, 255, 0.03), rgba(255, 255, 255, 0.05));
-    border-radius: 10px;
+    border-radius: 40px;
     margin-bottom: 20px;
     width: 80%;
+    padding: 5px;
 }
 
 .subscription-form-input {
-    width: 80%;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    margin-left: 20px;
+    font-size: 125%;
+}
+
+::placeholder {
+    color: white;
+}
+
+:focus {
+    outline: none;
+}
+
+.subscribe-button-a {
+    padding: 5px;
+    width: 19.5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subscribe-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+    width: 196px;
+    font-size: 125%;
+}
+
+.subscribe-button-img {
+    margin-right: 5px;
 }
