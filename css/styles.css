@@ -293,7 +293,7 @@ h1 {
     width: 100%;
     background-color: transparent;
     border: 0;
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 125%;
 }
 
@@ -324,4 +324,41 @@ h1 {
 
 .subscribe-button-img {
     margin-right: 5px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.upper-footer-div-lvl2 {
+    width: 19;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-upper-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.footer-upper-text {
+    margin-left: 7.5px;
+}
+
+.footer-upper-a {
+    width: 100%;
+}
+
+.upper-footer-div-lvl1 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/*.footer-hr {
+    background-color: rgba(150, 150, 150, 1);
+    width: 100%;
+    margin-top: 10px;
 }
