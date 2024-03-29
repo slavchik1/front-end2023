@@ -327,8 +327,7 @@ h1 {
 }
 
 footer {
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 .upper-footer-div-lvl2 {
@@ -357,8 +356,33 @@ footer {
     flex-wrap: nowrap;
 }
 
-/*.footer-hr {
-    background-color: rgba(150, 150, 150, 1);
-    width: 100%;
-    margin-top: 10px;
+.icon-circle {
+    background-color: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.no-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.copyright-text {
+    height: 45%;
+}
+
+.other-texts {
+    height: 45%;
+    text-align: right;
+}
+
+.other-texts-a {
+    margin-right: 10px;
+    align-self: flex-end;
 }
